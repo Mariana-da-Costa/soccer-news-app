@@ -10,4 +10,13 @@
 
     <color name="favorite_active">#FF6200EE</color>
     <color name="favorite_inactive">#737373</color>
+    
+    <color name="pink_primary">#f7bacf</color>
+    <color name="pink_700">#c2185b</color>
+    <color name="pink_secondary">#f06292</color>
+    <color name="pink_primary_light">#ffedff</color>
+    <color name="pink_primary_dark">#c38a9e</color>
+    <color name="pink_secondary_light">#ff94c2</color>
+    <color name="pink_secondary_dark">#ba2d65</color>
+
 </resources>
