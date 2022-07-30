@@ -4,11 +4,11 @@
     <string name="title_news">Notícias</string>
     <string name="title_favorites">Favoritos</string>
 
-    <string name="cd_news_image">News image.</string>
-    <string name="cd_favorite_icon">Favorite icon.</string>
-    <string name="cd_share_icon">Share icon.</string>
+    <string name="cd_news_image">Imagem da notícia</string>
+    <string name="cd_favorite_icon">Favoritar</string>
+    <string name="cd_share_icon">Compartilhar</string>
 
     <string name="txt_saiba_mais">Saiba mais</string>
 
-    <string name="error_network">Network error.</string>
+    <string name="error_network">Erro de internet</string>
 </resources>
