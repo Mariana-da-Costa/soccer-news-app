@@ -10,12 +10,9 @@ import retrofit2.converter.gson.GsonConverterFactory;
 
 public class SoccerNewsRepository {
 
-    //region Constantes
     private static final String REMOTE_API_URL = "https://digitalinnovationone.github.io/soccer-news-api/";
     private static final String LOCAL_DB_NAME = "soccer-news";
-    //endregion
 
-    //region Atributos: encapsulam o acesso a nossa API (Retrofit) e banco de dados local (Room).
     private SoccerNewsApi remoteApi;
     private SoccerNewsDb localDb;
 
@@ -26,10 +23,8 @@ public class SoccerNewsRepository {
     public SoccerNewsDb getLocalDb() {
         return localDb;
     }
-    //endregion
 
-    //region Singleton: garante uma instância única dos atributos relacionados ao Retrofit e Room.
-    private SoccerNewsRepository () {
+    private SoccerNewsRepository() {
         remoteApi = new Retrofit.Builder()
                 .baseUrl(REMOTE_API_URL)
                 .addConverterFactory(GsonConverterFactory.create())
@@ -46,5 +41,4 @@ public class SoccerNewsRepository {
     private static class LazyHolder {
         private static final SoccerNewsRepository INSTANCE = new SoccerNewsRepository();
     }
-    //endregion
 }
